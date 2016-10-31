@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <!-- <fragment
+        android:id="@+id/fg_one_home"
+       android:name="feicui.edu.testfragment.activity.OneFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <fragment
+        android:id="@+id/fg_two_home"
+        android:name="feicui.edu.testfragment.activity.TwoFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>-->
+    <ListView
+        android:id="@+id/lv_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/ll_main"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    </LinearLayout>
+
+</RelativeLayout>
